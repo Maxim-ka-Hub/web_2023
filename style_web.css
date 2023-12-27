@@ -97,7 +97,7 @@ footer{
   background-color: rgba(40, 54, 70, 1);
 }
 
-.satyamstudio{
+/* .satyamstudio{
   color: var(--Blue-Blue-70, #3A86FF);
   font-variant-numeric: lining-nums proportional-nums;
 
@@ -116,6 +116,41 @@ footer{
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+}
+
+.Copyright{
+  color: #CFD3D7;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+} */
+
+table{
+  border: 1px solid rgba(40, 54, 70, 1);
+  border-collapse: separate;
+  border-spacing: 10px;
+  color: #CFD3D7;
+  
+}
+
+td,th{
+  /* border: 2px solid #FF6F00; */
+  height: 30px;
+  width: 250px;
+  padding: 5px;
+  text-align: justify;
+}
+
+th{
+  color: var(--Blue-Blue-70, #3A86FF);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
 }
 
 
